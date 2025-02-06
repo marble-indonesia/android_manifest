@@ -3,7 +3,7 @@
 
   <remote  name="pixelage"
            fetch="https://github.com/ProjectPixelage"
-           revision="refs/heads/fifteen" />
+           revision="refs/heads/15" />
 
   <remote  name="pixelage-gitea"
            fetch="https://gitea.com/clarencelol"
