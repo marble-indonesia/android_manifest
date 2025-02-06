@@ -8,7 +8,7 @@ To get started with Android, you'll need to get familiar with [Source Control To
 
 To initialize your local repository using the ProjectPixelage trees, use a command like this:
 ```
-repo init -u https://github.com/ProjectPixelage/android_manifest.git -b fifteen --git-lfs
+repo init -u https://github.com/ProjectPixelage/android_manifest.git --git-lfs --depth=1
 ```
 Then to sync up:
 ```
