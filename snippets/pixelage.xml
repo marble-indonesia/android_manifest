@@ -55,6 +55,9 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="pixelage" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="pixelage" />
 
+  <!-- Forked HALs -->
+  <project path="hardware/qcom-caf/sm8450/audio/pal" name="android_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-vendor" remote="marble-indonesia" />
+
   <!-- hardware -->
   <project path="hardware/google/gchips" name="android_hardware_google_gchips" groups="pdk-lassen,pdk-gs-arm" remote="pixelage" />
   <project path="hardware/google/graphics/common" name="android_hardware_google_graphics_common" groups="pdk-lassen,pdk-gs-arm" remote="pixelage" />
